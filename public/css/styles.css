@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+/* Font Family :-
+font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: "Quicksand", sans-serif;
+
+*/
+body {
+	max-height: 1500vh;
+}
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+/* Navbar Section*/
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-nav li a:hover {
+	color: #1abc9c !important;
+}
+.nav-link {
+	font-family: "Eczar", serif;
+	font-size: 1.5rem;
+	font: weight 900px;
+	padding: 0 0 0.4rem 0;
+	text-align: right;
+	letter-spacing: 0.5px;
+	margin: 0.5rem 0.5rem 0 0;
+}
+
+#daily {
+	font-family: "Eczar", serif;
+	font-size: 2rem;
+	font-weight: 800;
+	margin-left: 7rem;
+	letter-spacing: 6px;
+}
+#daily:hover {
+	color: #1abc9c;
+}
+.navbar-item {
+	padding: 12px 16px 0px 16px;
+}
+.navbar-toggler {
+	position: relative;
+	left: -2rem;
+}
+.navbar-toggler-icon {
+	position: relative;
+	left: -0.05rem;
+}
+
+/* Container Class */
+.container {
+	margin: 4rem 0 0 6rem;
+	font-family: "Quicksand", sans-serif;
+}
+/* Compose Form */
+.composeform {
+	margin-top: 3rem;
+}
+.form-label {
+	font-weight: bold;
+}
+.btn {
+	font-size: 1.2rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.publishbutton:hover {
+	background-color: blue;
+}
+
+.deletebutton {
+	margin-top: 3rem;
+}
+
+/* Home  */
+.updatedpost {
+	margin-top: 2.5rem;
+}
+.updatedpost h1 {
+	font-size: 2rem;
+}
+.readmore {
+	text-decoration: none;
+	font-weight: 400;
+}
+.readmore:hover {
+	text-decoration: dotted;
+	color: #1abc9c;
+	font-weight: 800;
+}
+.postpara {
+	margin-top: 2rem;
+}
+/* Footer Section*/
+
+.footer {
+	/* font-family: "Montserrat", sans-serif;
+	text-align: center;
+	margin-top: 4rem; */
+
+	/* bottom: 0;
+	width: 100%;
+	height: 100.8%; */
+	/* position: sticky;
+	width: 100vw;
+	height: 7rem;
+	top: 100%;
+	background-color: #000; */
+	font-family: "Montserrat", sans-serif;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 13%;
+	background-color: #000;
+}
+.footer-i {
+	font-size: 1.5rem;
+	padding: 2rem 1.5rem 0 0;
+	color: white;
+}
+.footer-i:hover {
+	color: #1abc9c;
+}
+.footerpara {
+	margin: 18px 0 6px 0;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1.5px;
+}
+.warningbutton {
+	font-family: "Eczar", serif;
+	margin: -0.3rem 0rem 0rem 0.2rem;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+}

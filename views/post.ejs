@@ -1,0 +1,11 @@
+<%- include("./partials/header.ejs") -%>
+<h1 style="font-weight:900"><%=titlepost%></h1>
+<p class="postpara"><%= postdesc%></p>
+
+<form action="/delete" method="post">
+      <button type="submit" class="btn btn-outline-danger deletebutton" name="delete" value="<%=titlepost%>">Delete the post</button>
+</form>
+
+<%- include("./partials/footer.ejs") -%>
+
+
